@@ -146,6 +146,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="flaechen_funcs.h" />
     <ClInclude Include="menue.h" />
     <ClInclude Include="menuechooser.h" />
     <ClInclude Include="mFuncs.h" />

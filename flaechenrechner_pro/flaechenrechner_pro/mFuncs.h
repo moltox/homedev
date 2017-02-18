@@ -19,3 +19,10 @@ void gotoxy(int x, int y) {
 	COORD newPosition = { x, y };
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), newPosition);
 }
+
+void waitforenter() {
+	int enter;
+
+	while ((enter = getKey()) != 13) {}
+
+}

@@ -13,6 +13,7 @@ const int START_Y = 10;
 const int LAST_Y = 12;
 
 void paintMenu() {
+	
 	gotoxy(START_X - 5, START_Y - 3);
 	printf("+------ MENU -----------+");
 	for (int i = START_Y - 2; i < START_Y + 8;i++) {
