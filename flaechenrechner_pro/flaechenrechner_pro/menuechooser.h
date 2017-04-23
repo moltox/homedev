@@ -32,6 +32,7 @@ int menuechooser(int startx, int starty, int lasty) {
 			gotoxy(lastCursorPosition_x, lastCursorPosition_y + 1);
 			lastCursorPosition_y++;
 			printf(">");
+			gotoxy(1, 25);
 		}
 		if (key == 584 && lastCursorPosition_y > starty ) {  			// key up?
 			gotoxy(lastCursorPosition_x, lastCursorPosition_y);
@@ -39,6 +40,7 @@ int menuechooser(int startx, int starty, int lasty) {
 			gotoxy(lastCursorPosition_x, lastCursorPosition_y - 1);
 			lastCursorPosition_y--;
 			printf(">");
+			gotoxy(1, 25);
 		}
 	}
 	choosenrow = lastCursorPosition_y - starty + 1;

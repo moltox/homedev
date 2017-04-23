@@ -29,6 +29,8 @@ void paintMenu() {
 	printf("Rechteck");
 	gotoxy(START_X + 3, START_Y + 2);
 	printf("Dreieck");
+	gotoxy(START_X + 3, START_Y + 4);
+	printf("(Q)uit");
 }
 
 int getMenue() {
